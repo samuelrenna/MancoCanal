@@ -1,0 +1,64 @@
+.logo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid $color-3;
+    border-radius: 50%;
+}
+h1{
+    font-size: $fuente-h;
+    margin: $espacios-G+5px;
+    padding: 5px;
+    text-align: center;
+    background-color: $color-3;
+    border-radius:$espacios-G*2;
+    text-align: center;
+    }
+
+.main__section__video{
+        @include centro;
+    & iframe {
+        border: ($espacios-G)-8px solid $color-2;
+        box-shadow: $color-3 ($espacios-G*0) ($espacios-G*0) $espacios-G (($espacios-G)-5px);
+        border-radius: $espacios-G+5px;
+        margin: $espacios-G;
+        width: 250px;
+        height: 300px;
+        }
+    }
+
+    @media (min-width: $tablet ){
+        .main__section__video iframe
+        {
+        border: ($espacios-G)-8px solid $color-2;
+        box-shadow: $color-3 0px 0px $espacios-G ($espacios-G)-5px;
+        border-radius: $espacios-G+5px;
+        margin: $espacios-G;
+        width: 700px;
+        height: 650px;
+        }
+        }
+
+        @media (min-width: $escritorio ){
+            .main__section__video iframe
+            {
+            border: ($espacios-G)-8px solid $color-2;
+            box-shadow: $color-3 0px 0px $espacios-G ($espacios-G)-5px;
+            border-radius: $espacios-G+5px;
+            margin: $espacios-G;
+            width: 730px;
+            height: 530px;
+            }
+            }
+
+            @media (min-width: $escritorioXL ){
+                .main__section__video iframe
+                {
+                border: ($espacios-G)-8px solid $color-2;
+                box-shadow: $color-3 0px 0px $espacios-G ($espacios-G)-5px;
+                border-radius: $espacios-G+5px;
+                margin: $espacios-G;
+                width: 1024px;
+                height: 720px;
+                }
+                }
+                

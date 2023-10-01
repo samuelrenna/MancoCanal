@@ -1,0 +1,47 @@
+/*paleta de colores */
+$color-1:#A3BAC3;
+$color-2:#253237;
+$color-3:#B20D30;
+$color-4:#ceff1a;
+$color-5:#EAEBED;
+
+/*fuentes*/
+$fuente-sitio:'Roboto', sans-serif;
+
+/*tamaño de fuentes*/
+$fuente-h: 2rem;
+$fuente-p: 1rem;
+$fuente-general: 10px;
+$iconos: 40px;
+
+
+/*resolucion de pantallas*/
+
+$tablet: 768px;
+$escritorio: 992px;
+$escritorioXL: 1200px;
+
+/*espacios, margin, padding*/
+$espacios-G: 10px;
+
+/*mixin*/
+
+@mixin centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
