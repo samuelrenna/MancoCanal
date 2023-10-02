@@ -1,0 +1,12 @@
+.container__from{
+    background-color: $color-3;
+    margin: $espacios-G*2;
+    padding: $espacios-G+5px;
+    border: ($espacios-G)-8px solid $color-2;
+    border-radius: $espacios-G;
+    box-shadow: $color-2 0px 0px $espacios-G ($espacios-G)-5px;
+}
+
+#btncontacto{
+    margin-top: $espacios-G+5px;
+}

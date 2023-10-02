@@ -186,4 +186,17 @@ h1 {
   color: #253237;
 }
 
+.container__from {
+  background-color: #B20D30;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #253237;
+  border-radius: 10px;
+  box-shadow: #253237 0px 0px 10px 5px;
+}
+
+#btncontacto {
+  margin-top: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
