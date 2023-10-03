@@ -81,6 +81,14 @@ footer {
         padding: ($espacios-G)-5px;
         box-shadow: $color-3 5px 5px $espacios-G+20px 5px;
     }
+
+    .nav-link.active{
+        background-color:$color-1;
+        border-radius: $espacios-G;
+        border: 2px solid $color-2;
+        box-shadow: $color-3 0px 0px 5px 5px;
+    }
+
     @media (min-width: $escritorio ){
         h1,h2,h5{
             font-size: $fuente-h;

@@ -92,6 +92,13 @@ h2 {
   box-shadow: #B20D30 5px 5px 30px 5px;
 }
 
+.nav-link.active {
+  background-color: #A3BAC3;
+  border-radius: 10px;
+  border: 2px solid #253237;
+  box-shadow: #B20D30 0px 0px 5px 5px;
+}
+
 @media (min-width: 992px) {
   h1, h2, h5 {
     font-size: 2rem;
