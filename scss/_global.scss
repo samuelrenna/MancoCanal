@@ -20,7 +20,7 @@ p{
     font-size: $fuente-p;
 }
 h1,h2,h5{
-    font-size: $fuente-h;
+    font-size: ($fuente-h)-0.5;
 }
 
 footer {
@@ -81,3 +81,20 @@ footer {
         padding: ($espacios-G)-5px;
         box-shadow: $color-3 5px 5px $espacios-G+20px 5px;
     }
+    @media (min-width: $escritorio ){
+        h1,h2,h5{
+            font-size: $fuente-h;
+        }
+        p{
+            font-size: $fuente-p+0.5;
+        }
+        }
+
+        @media (min-width: $escritorioXL ){
+            h1,h2,h5{
+                font-size: $fuente-h+0.5;
+            }
+            p{
+                font-size: $fuente-p+0.8;
+            }
+            }
