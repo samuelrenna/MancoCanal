@@ -64,7 +64,7 @@ Se utilizó SASS para mantener un código limpio y escalable:
 1. Clonar el repositorio:
    git clone <https://github.com/samuelrenna/MancoCanal.git>
 
-2. Instalar dependencias (si aplica para futuras herramientas):
+2. Instalar dependencias:
    npm install
 
 3. Compilar SASS (requiere tener SASS instalado):
